@@ -1,9 +1,15 @@
-cara menjalankan aplikasi di local
-composer update
-php artisan key:generate
+cara menjalankan aplikasi di local <br>
+composer update <br>
 
-pastikan koneksi ke database tersambung
-lakukan php artisan migrate
-php artisan install:api
+setting env ada contoh di env,example <br>
 
-php artisan serve untuk menjalankan
+jalankan <br>
+php artisan key:generate <br>
+
+pastikan koneksi ke database tersambung <br>
+jalankan <br>
+php artisan migrate <br>
+php artisan install:api <br>
+
+untuk menjalankan <br>
+php artisan serve
