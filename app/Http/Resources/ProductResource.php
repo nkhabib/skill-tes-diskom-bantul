@@ -21,8 +21,8 @@ class ProductResource extends JsonResource
             "category_id" => $this->category_id,
             "unit_price" => $this->unit_price,
             "units_in_stock" => $this->units_in_stock,
-            "category_name" => "Beverages",
-            "supplier_name" => "Exotic Liquids"
+            "category_name" => $this->category_name,
+            "supplier_name" => $this->company_name
 
         ];
     }
